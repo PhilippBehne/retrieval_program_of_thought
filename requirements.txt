@@ -1,0 +1,32 @@
+# ===========================================
+# UDA Retrieval System Requirements
+# ===========================================
+
+# --- PyTorch (CUDA 12.8) ---
+# Install separately: pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch
+
+# --- Embeddings & Retrieval ---
+FlagEmbedding
+transformers==4.44.2
+rank-bm25
+
+# --- Data Processing ---
+numpy
+pandas
+
+# --- Visualization ---
+matplotlib
+
+# --- LLM APIs ---
+anthropic
+requests
+
+# --- Results I/O ---
+jsonlines
+
+# ===========================================
+# INSTALLATION
+# ===========================================
+# 1. pip install torch --index-url https://download.pytorch.org/whl/cu128
+# 2. pip install -r requirements.txt

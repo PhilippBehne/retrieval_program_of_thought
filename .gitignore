@@ -1,0 +1,28 @@
+# Data - alles außer Code
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.idea/
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs & temp
+*.log
+*.tmp
